@@ -17,17 +17,28 @@ body{
     flex-direction: row;
 }
 
-.button-section{
-    background-color: tomato;
-    height: 600px;
+.code-section{
+    padding-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.css-section{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
 }
 
 .image{
     width: 300px;
+}
+
+.codeimage{
+    width: 600px;
 }
 
 .txt{
@@ -39,5 +50,10 @@ body{
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+    background-color: gold;
 }
 
+.break{
+    height: 100px;
+    background-color: gold;
+}
