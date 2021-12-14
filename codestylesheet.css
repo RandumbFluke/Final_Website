@@ -17,6 +17,15 @@ body{
     flex-direction: row;
 }
 
+.button-section{
+    background-color: tomato;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
 .image{
     width: 300px;
 }
